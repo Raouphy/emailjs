@@ -1,0 +1,76 @@
+/* Always set the map height explicitly to define the size of the div
+ * element that contains the map. */
+/* line 9, /Users/romainmosser/Documents/THP/projet_rendu/maps-api/app/assets/stylesheets/home.scss */
+h1, h3 {
+  text-align: center;
+  font-weight: 300;
+}
+
+/* line 14, /Users/romainmosser/Documents/THP/projet_rendu/maps-api/app/assets/stylesheets/home.scss */
+h3 {
+  font-size: 1em;
+  font-weight: 300;
+}
+
+/* line 19, /Users/romainmosser/Documents/THP/projet_rendu/maps-api/app/assets/stylesheets/home.scss */
+#map {
+  height: 100%;
+}
+
+/* Optional: Makes the sample page fill the window. */
+/* line 23, /Users/romainmosser/Documents/THP/projet_rendu/maps-api/app/assets/stylesheets/home.scss */
+html, body {
+  height: 90%;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  font-family: 'Helvetica', sans-serif;
+}
+
+/* line 31, /Users/romainmosser/Documents/THP/projet_rendu/maps-api/app/assets/stylesheets/home.scss */
+#coordinates {
+  margin-bottom: 50px;
+  padding: 10px 30%;
+}
+
+/* line 36, /Users/romainmosser/Documents/THP/projet_rendu/maps-api/app/assets/stylesheets/home.scss */
+input[type="text"] {
+  display: flex;
+  border-radius: 3px;
+  height: 20px;
+  border: 1px solid #76829b;
+  box-shadow: none;
+  margin-top: 5px;
+  background-color: #dadfea;
+  padding: 3px;
+}
+
+/* line 47, /Users/romainmosser/Documents/THP/projet_rendu/maps-api/app/assets/stylesheets/home.scss */
+input[type="submit"] {
+  display: flex;
+  margin: 5px;
+}
+
+/* line 52, /Users/romainmosser/Documents/THP/projet_rendu/maps-api/app/assets/stylesheets/home.scss */
+label {
+  float: left;
+  margin-right: 50px;
+  font-weight: 300;
+  font-size: .8em;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+

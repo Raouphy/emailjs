@@ -1,0 +1,56 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+ /* Always set the map height explicitly to define the size of the div
+  * element that contains the map. */
+
+h1, h3 {
+  text-align: center;
+  font-weight: 300;
+}
+
+h3 {
+  font-size: 1em;
+  font-weight: 300;
+}
+
+ #map {
+   height: 100%;
+ }
+ /* Optional: Makes the sample page fill the window. */
+ html, body {
+   height: 90%;
+   margin: auto;
+   padding: 0;
+   width: 90%;
+   font-family: 'Helvetica', sans-serif;
+ }
+
+#coordinates {
+  margin-bottom: 50px;
+  padding: 10px 30%;
+}
+
+ input[type="text"] {
+   display: flex;
+   border-radius: 3px;
+   height: 20px;
+   border: 1px solid #76829b;
+   box-shadow: none;
+   margin-top: 5px;
+   background-color: #dadfea;
+   padding: 3px;
+ }
+
+ input[type="submit"] {
+   display: flex;
+   margin: 5px;
+ }
+
+ label {
+   float: left;
+    margin-right: 50px;
+    font-weight: 300;
+    font-size: .8em;
+ }
